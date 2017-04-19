@@ -1,6 +1,6 @@
 {
   "name": "redux-saga-request",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "🏞 Request helper for Redux Saga.",
   "keywords": [
     "redux",
