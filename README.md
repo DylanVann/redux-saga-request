@@ -21,15 +21,15 @@ import { createRequest, request } from 'redux-saga-request'
 const FETCH_STUFF = createRequest('FETCH_STUFF')
 
 // Have something async to run.
-const fetchStuff = fetch('https://unsplash.it/list').then(r => r.json());
+const fetchStuff = fetch('https://unsplash.it/list').then(r => r.json())
 
 // Run it with Redux Saga.
 function* mySaga() {
-  yield request(FETCH_STUFF, [fetchStuff]);
+  yield request(FETCH_STUFF, [fetchStuff])
 }
 
 // Do stuff easily in your reducers.
-const stuffReducer (state = {}, { type, payload }) => {
+const stuffReducer = (state = {}, { type, payload }) => {
   switch (type) {
     case FETCH_STUFF.STARTED:
       return {
@@ -55,9 +55,9 @@ const stuffReducer (state = {}, { type, payload }) => {
         errored: true,
       }
     default:
-      return state;
+      return state
   }
-};
+}
 ```
 
 ## Advanced Usage
@@ -72,6 +72,6 @@ function* mySaga() {
     FETCH_STUFF,
     [fetchStuff, fetchStuffArg],
     { fetchStuffMeta: 'META' }
-  );
+  )
 }
 ```

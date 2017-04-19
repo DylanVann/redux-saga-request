@@ -41,12 +41,7 @@ export function createRequest(type) {
 // Calls a promise. Puts events for start, success, error, and cancelled.
 export function* requestSaga(type, func, meta) {
   // Get the request event types for this type.
-  const {
-    start,
-    success,
-    error,
-    cancel,
-  } = type;
+  const { start, success, error, cancel } = type
 
   // Put the started type.
   yield put(start(meta))
