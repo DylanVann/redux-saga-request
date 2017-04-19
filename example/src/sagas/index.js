@@ -1,5 +1,5 @@
 import { takeLatest } from 'redux-saga/effects'
-import { request } from '../request'
+import { request } from 'redux-saga-request'
 import { FETCH_POSTS, REFRESH_CLICKED, fetchPosts } from '../actions'
 
 function* fetchPostsSaga(action) {
