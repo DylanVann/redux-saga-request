@@ -13,7 +13,7 @@
   },
   "license": "MIT",
   "author": "Dylan Vann <dylanvann@gmail.com> (http://dylanvann.com)",
-  "main": "request.js",
+  "main": "lib/request.js",
   "directories": {
     "example": "example"
   },
@@ -22,9 +22,12 @@
     "url": "git+https://github.com/DylanVann/redux-saga-request.git"
   },
   "scripts": {
+    "build": "NODE_ENV=production ./node_modules/.bin/babel ./request.js --out-dir lib/",
+    "prepublish": "npm run build",
     "test": "jest"
   },
   "devDependencies": {
+    "babel-cli": "^6.24.1",
     "babel-jest": "^19.0.0",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.4.0",
