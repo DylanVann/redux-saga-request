@@ -2,6 +2,9 @@
 
 🏞 Request helper for Redux Saga.
 
+[![CircleCI](https://img.shields.io/circleci/project/github/DylanVann/redux-saga-request.svg)](https://circleci.com/gh/DylanVann/react-native-fast-image)
+[![license](https://img.shields.io/github/license/DylanVann/react-native-fast-image.svg)](https://github.com/DylanVann/redux-saga-request/blob/master/LICENSE)
+
 Helper for running async functions and dispatching actions in redux saga.
 
 ## Usage
