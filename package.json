@@ -1,29 +1,29 @@
 {
   "name": "redux-saga-request",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "🏞 Request helper for Redux Saga.",
-  "main": "request.js",
-  "directories": {
-    "example": "example"
-  },
-  "scripts": {
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DylanVann/redux-saga-request.git"
-  },
   "keywords": [
     "redux",
     "redux-saga",
     "request"
   ],
-  "author": "Dylan Vann",
-  "license": "MIT",
+  "homepage": "https://github.com/DylanVann/redux-saga-request#readme",
   "bugs": {
     "url": "https://github.com/DylanVann/redux-saga-request/issues"
   },
-  "homepage": "https://github.com/DylanVann/redux-saga-request#readme",
+  "license": "MIT",
+  "author": "Dylan Vann <dylanvann@gmail.com> (http://dylanvann.com)",
+  "main": "request.js",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DylanVann/redux-saga-request.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "babel-jest": "^19.0.0",
     "babel-plugin-transform-runtime": "^6.23.0",
