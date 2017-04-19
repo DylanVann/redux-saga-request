@@ -2,6 +2,7 @@
 
 🏞 Request helper for Redux Saga.
 
+[![npm](https://img.shields.io/npm/v/redux-saga-request.svg)](https://www.npmjs.com/package/redux-saga-request)
 [![CircleCI](https://img.shields.io/circleci/project/github/DylanVann/redux-saga-request.svg)](https://circleci.com/gh/DylanVann/react-native-fast-image)
 [![license](https://img.shields.io/github/license/DylanVann/react-native-fast-image.svg)](https://github.com/DylanVann/redux-saga-request/blob/master/LICENSE)
 
