@@ -59,7 +59,6 @@ export function* requestSaga(type, func, meta) {
     return yield put(success(payload, meta))
   } catch (e) {
     // If it's unsuccessful put the errored type.
-    // eslint-disable-next-line no-console
     return yield put(error(e, meta))
   } finally {
     if (yield cancelledSaga()) {
