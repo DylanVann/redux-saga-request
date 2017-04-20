@@ -21,7 +21,7 @@ import { createRequest, request } from 'redux-saga-request'
 const FETCH_STUFF = createRequest('FETCH_STUFF')
 
 // Have something async to run.
-const fetchStuff = fetch('https://unsplash.it/list').then(r => r.json())
+const fetchStuff = () => fetch('https://unsplash.it/list').then(r => r.json())
 
 // Run it with Redux Saga.
 function* mySaga() {
