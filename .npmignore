@@ -3,3 +3,4 @@ example
 circle.yml
 request.test.js
 yarn.lock
+.babelrc
